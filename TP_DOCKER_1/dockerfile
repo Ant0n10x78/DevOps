@@ -1,0 +1,4 @@
+FROM nginx
+
+EXPOSE 80
+VOLUME C:/Users/Antonio/Desktop/Ynov/DevOps/DevOps/TP_DOCKER_1/html/index.html 
