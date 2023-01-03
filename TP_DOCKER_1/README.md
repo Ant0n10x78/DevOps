@@ -14,6 +14,7 @@ Par la suite on build le dockerfile:
 docker build -t dockerfile .
 
 On peut ensuite lancer un conteneur avec des parametres prédéfinis grace au docker file:
+<<<<<<< HEAD
 docker run -it -d --name dockerfile_nginx dockerfile  
 
 
@@ -23,3 +24,28 @@ Avantage de la méthode 3.:
 
 Avantage de la méthode 4.:
 -Permet de d'executer une image de docker pre-configurer avec le dockerfile
+=======
+docker run -it -d --name dockerfile_nginx dockerfile   
+
+
+
+5.
+Pour lancer un container mysql:
+docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql
+
+On a donc mysql tel que:
+login: root
+password: my-secret-pw
+
+Pour lancer phpmyadmin:
+docker run --name myadmin -d --link some-mysql:db -p 8080:80 phpmyadmin
+
+b.
+Une fois qu'on lance phpmyadmin on peut se connecter sur l'interface graphique via le port 8080 (http)
+
+
+
+6.
+Il nous faut d'abord installer le paquet:
+sudo apt-get install docker-compose
+>>>>>>> origin
