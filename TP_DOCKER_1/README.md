@@ -14,4 +14,12 @@ Par la suite on build le dockerfile:
 docker build -t dockerfile .
 
 On peut ensuite lancer un conteneur avec des parametres prédéfinis grace au docker file:
-docker run -it -d --name dockerfile_nginx dockerfile   
+docker run -it -d --name dockerfile_nginx dockerfile  
+
+
+Avantage de la méthode 3.:
+-
+
+
+Avantage de la méthode 4.:
+-Permet de d'executer une image de docker pre-configurer avec le dockerfile
