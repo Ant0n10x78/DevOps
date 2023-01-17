@@ -1,0 +1,26 @@
+Q1-----
+Il est important que l'application soit stateless car cela facilite la mise en cluster et la répatition des charges de plus les instances de l'application peuvent être gérées indépendamment les une des autres.
+
+Q2-----
+Cela dépend à priori de l'environnement de développement. Les volumes peuvent etre partager entre plusieurs conteneurs notamment avec un orchestreur comme Kubernetes.
+
+Q3-----
+
+
+Q4-----
+Le principale avantage avec le mode severless comparer au mode classique et le fait que l'on paie seulement pour le cout de l'application déployée et non pour toute l'infrastructure.
+Q5-----
+
+Q6-----
+
+Q7-----
+En severless on ne peut pas stocker de base de donner mais seulement les applications web par conséquent l'utilisation d'une bdd via le cloud serait optimale.
+Q8-----
+Les principaux avantages de deployer des solutions en mode full cloud sont les suivants :
+-disponible facilement de tout lieu
+-infrastructure minimum pour l'entreprise
+et les inconvéniants les suivants:
+-en cas de perte de connexion alors le service n'est plus disponible
+Q9-----
+Les services cloud utiliser dans mon entreprises sont nombreux, notamment:
+-les siems tels Qradar, splunk,microsoft azure....
