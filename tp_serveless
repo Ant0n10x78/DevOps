@@ -5,11 +5,13 @@ Q2-----
 Cela dépend à priori de l'environnement de développement. Les volumes peuvent etre partager entre plusieurs conteneurs notamment avec un orchestreur comme Kubernetes.
 
 Q3-----
-
+Non chaque instance à besoin de sa propre session SQLlite 
 
 Q4-----
 Le principale avantage avec le mode severless comparer au mode classique et le fait que l'on paie seulement pour le cout de l'application déployée et non pour toute l'infrastructure.
 Q5-----
+Les points de vigilance à surveiller sont les suivants:
+-les ressources utilisées 
 
 Q6-----
 
