@@ -1,0 +1,3 @@
+sudo docker build -t antonio-tp3 .
+sudo docker tag antonio-tp3:latest rg.fr-par.scw.cloud/ynov-devops-container-registry/antonio-tp3:latest
+docker push rg.fr-par.scw.cloud/ynov-devops-container-registry/antonio-tp3:latest
